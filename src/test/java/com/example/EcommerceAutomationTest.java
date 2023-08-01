@@ -118,7 +118,7 @@ public class EcommerceAutomationTest {
 		JavascriptExecutor js = (JavascriptExecutor) webDriver;
 		js.executeScript("window.scrollTo(0, 0);");
 
-		// Wait for a delay to allow images in the middle section to load
+		
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
